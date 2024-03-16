@@ -72,7 +72,7 @@ a{
 #fe-box{
     border: 1px solid #bde0fe;
     min-width: 160px;
-    box-shadow: 15px 25px 45px rgba(0,0,0,0.3);
+    box-shadow: 8px 10px 25px rgba(99, 95, 95, 0.3);
 }
 #fe-box:hover{
     box-shadow:  5px 5px 5px rgba(0,0,0,0.3);
@@ -84,9 +84,10 @@ a{
     border-radius: 20px;
 }
 #products .p-img-div{
-    background: linear-gradient(rgba(2,34,3,0.5),rgba(121, 10, 10, 0.3));
-    border-radius: 20px;
+    background: /*linear-gradient(rgba(2,34,3,0.5),rgba(121, 10, 10, 0.3)); */ lightgray;
+    border-radius: 10px;
     cursor: pointer;
+    box-shadow: inset 0 0 7px black;
 }
 /*icon ratings*/
 .stars{
@@ -193,6 +194,9 @@ a{
     background-color: #088178;
  }
 
+#footer {
+    background: rgba(8, 129, 120, 0.2);
+ }
 #footer-icons .icon{
     padding-right: 12px;
     cursor:pointer;
